@@ -1,0 +1,89 @@
+/* colors */
+/* Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .card {
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.main .card .hero-image {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+
+.main .card .hero-image .mobile-hero {
+  border-radius: 10px;
+  width: 288px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main .card .card-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 40px;
+  font-family: "Outfit", sans-serif;
+}
+
+.main .card .card-wrapper .header {
+  padding-right: 16px;
+  padding-left: 16px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  /* Dark Navy */
+  color: #1f314f;
+}
+
+.main .card .card-wrapper .card-body {
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 57px;
+  left: 5.56%;
+  right: 5.56%;
+  top: calc(50% - 57px / 2 + 36px);
+  /* Body */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  /* Grey */
+  color: #7d889e;
+}
+/*# sourceMappingURL=main.css.map */

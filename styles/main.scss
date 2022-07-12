@@ -1,0 +1,88 @@
+/* colors */
+
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+/* Fonts */
+$font: "Outfit", sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+body {
+	height: 100vh;
+	background-color: $light-gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main {
+	.card {
+		width: 320px;
+		height: 497px;
+		background-color: $white;
+		border-radius: 20px;
+
+		.hero-image {
+			padding-top: 16px;
+			padding-left: 16px;
+			padding-right: 16px;
+			padding-bottom: 24px;
+
+			.mobile-hero {
+				border-radius: 10px;
+				width: 288px;
+				height: auto;
+				object-fit: contain;
+			}
+		}
+		.card-wrapper {
+			align-items: center;
+			justify-content: center;
+
+			padding-bottom: 40px;
+			font-family: $font;
+			.header {
+				padding-right: 16px;
+				padding-left: 16px;
+				font-family: "Outfit";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 22px;
+				line-height: 28px;
+				text-align: center;
+
+				/* Dark Navy */
+
+				color: #1f314f;
+			}
+			.card-body {
+				padding-top: 16px;
+				padding-left: 32px;
+				padding-right: 32px;
+				height: 57px;
+				left: 5.56%;
+				right: 5.56%;
+				top: calc(50% - 57px / 2 + 36px);
+
+				/* Body */
+
+				font-family: "Outfit";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 19px;
+				text-align: center;
+				letter-spacing: 0.1875px;
+
+				/* Grey */
+
+				color: #7d889e;
+			}
+		}
+	}
+}
+@media screen and (max-width: 375px) {
+}
