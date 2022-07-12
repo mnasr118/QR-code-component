@@ -25,6 +25,8 @@ body {
   width: 320px;
   height: 497px;
   background-color: white;
+  -webkit-box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+          box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   border-radius: 20px;
 }
 
@@ -32,7 +34,6 @@ body {
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 24px;
 }
 
 .main .card .hero-image .mobile-hero {
@@ -44,19 +45,21 @@ body {
 }
 
 .main .card .card-wrapper {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 40px;
-  font-family: "Outfit", sans-serif;
-}
-
-.main .card .card-wrapper .header {
+  padding-top: 24px;
   padding-right: 16px;
   padding-left: 16px;
+  padding-bottom: 40px;
+}
+
+.main .card .card-wrapper .header-wrapper {
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 56px / 2 - 36.5px);
+}
+
+.main .card .card-wrapper .header-wrapper .header {
+  /* Heading */
   font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
@@ -67,14 +70,17 @@ body {
   color: #1f314f;
 }
 
-.main .card .card-wrapper .card-body {
+.main .card .card-wrapper .body-wrapper {
   padding-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   height: 57px;
   left: 5.56%;
   right: 5.56%;
   top: calc(50% - 57px / 2 + 36px);
+}
+
+.main .card .card-wrapper .body-wrapper .card-body {
   /* Body */
   font-family: "Outfit";
   font-style: normal;
